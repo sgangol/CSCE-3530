@@ -14,10 +14,10 @@
 #include <stdlib.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
-#include <time.h>     // for srand for security
+#include <time.h>     				// Srand for security
 
-#define SERVER "129.120.151.94" //IP address of server
-#define BUFLEN 17  //Max length of buffer
+#define SERVER "000.000.000.000" 	//	<<<<<<<<<<<<<<< Define IP for Server HERE
+#define BUFLEN 17  					//Max length of buffer
 static const char timeOut[] = "3600";
 
 void die(char *s)

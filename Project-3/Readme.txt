@@ -8,7 +8,7 @@ Implement a DHCP server using a client-server architecture
 =======================================
 1. Create a C/ Java based client-server architecture using UDP socket
 2. The DHCP server should be able to receive messages from multiple clients
-3. The server should be run on CSE01 machine and the clients should be run on any machine between CSE02 and CSE06. The IP address of cse01.cse.unt.edu is 129.120.151.94. The clients don’t need to broadcast the DHCP discover packet. They can use DHCP server’s IP address
+3. The server should be run on CSE01 machine and the clients should be run on any machine between CSE02 and CSE06.  The clients don’t need to broadcast the DHCP discover packet. They can use DHCP server’s IP address
 4. Demonstrate that a client is requesting an IP address and DHCP server is offering an IP address from the list of currently available IP addresses
 5. The DHCP server should register the client’s IP address and should acknowledge the client
 6. The client should randomly generate the transaction ID. The lifetime should be set to 3600 seconds
